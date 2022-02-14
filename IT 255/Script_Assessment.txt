@@ -1,0 +1,27 @@
+These are the commands I used to create my script for the final:
+
+#!/bin/bash
+
+free -m > Free_Space_Content.txt
+
+ls -l ~/workspace/OLD/ > OLD_Content.txt
+
+echo $(date) > Time_File.txt
+
+cp ~/workspace/OLD/Free_Space_Content_OLD.txt ~/workspace/BACKUP/Free_Space_Content_BACKUP.txt
+
+cp ~/workspace/OLD/Directory_Content_OLD.txt ~/workspace/BACKUP/Directory_Content_BACKUP.txt
+
+cp ~/workspace/OLD/Time_File_OLD.txt ~/workspace/BACKUP/Time_File_BACKUP.txt
+
+mv ~/workspace/New/* ~/workspace/BACKUP/
+
+:wq
+
+chmod +x Joseph_Silva.sh
+
+./Joseph_Silva.sh
+
+The script was a success. A new file titled OLD_Content.txt was created in the New Directory and the OLD_Content.txt had a list of the files in the OLD Directory. All the files that were in the New Directory were moved the BACKUP Directory. 
+
+

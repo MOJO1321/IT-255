@@ -1,0 +1,32 @@
+    7  pwd
+    8  whoami
+    9  ls
+   10  ls -a
+   11  -a
+   12  ls -al
+   13  grep -r "lastbackup"
+   14  find . whoownsme.txt -ls
+   15  top -n 1
+   16  history > Bearings_Log_File.txt
+
+   17  pwd
+   18  mkdir New
+   19  mkdir BACKUP
+   20  mkdir OLD
+   21  cd New
+   22  vi Personal_Content.txt
+   23  df > Free_Space_Content.txt
+   24  ls -l > Directory_Content.txt
+   25  cp Directory_Content.txt > Copied_Content.txt
+   26  cp Directory_Content.txt Copied_Content.txt
+   27  echo $(date) > Time_File.txt
+   28  mv Copied_Content.txt ~/workspace/OLD/Copied_Content_OLD.txt
+   29  mv ~/workspace/OLD/Copied_Content_OLD.txt ~/workspace/New/Copied_Content.txt
+   30  cp Copied_Content.txt ~/workspace/OLD/Copied_Content_OLD.txt
+   31  cp Directory_Content.txt ~/workspace/OLD/Directory_Content_OLD.txt
+   32  cp Free_Space_Content.txt ~/workspace/OLD/Free_Space_Content_OLD.txt
+   33  cp Personal_Content.txt ~/workspace/OLD/Personal_Content_OLD.txt
+   34  cp Time_File.txt ~/workspace/OLD/Time_File_OLD.txt
+   35  cd
+   36  cd workspace
+   37  history > Tasks_Log_File.txt

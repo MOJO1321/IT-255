@@ -1,0 +1,10 @@
+    7  pwd
+    8  whoami
+    9  ls
+   10  ls -a
+   11  -a
+   12  ls -al
+   13  grep -r "lastbackup"
+   14  find . whoownsme.txt -ls
+   15  top -n 1
+   16  history > Bearings_Log_File.txt
